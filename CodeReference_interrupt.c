@@ -1,6 +1,5 @@
 /*
  * 		Deskwizard's AVR Code Reference
- *		Version 0.1b (27/01/2016-1740)
  *
  *		File: CodeReference_interrupt.c 		->			Deskwizard's AVR Code Reference Interrupt handler(s) (source)
  */

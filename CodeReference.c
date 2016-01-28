@@ -1,13 +1,12 @@
 /*
  * 		Deskwizard's AVR Code Reference
- *		Version 0.1b (27/01/2016-1740)
  *
  *		File: CodeReference.c 		->			Deskwizard's AVR Code Reference  (source)
  */
 
 #include <avr/io.h>							// Include AVR IO definitions
 #include <avr/interrupt.h>				// Include AVR Interrupts definitions
-#include "CodeReference.h"				// Include Code Reference definitions
+#include "CodeReference.h"				// Include Code Reference general definitions
 
 #define MS_OCRxA (uint16_t)((F_CPU/CR_Prescaler)/(1000000/(1000)))			// Calculate required OCR1A value according to F_CPU
 extern volatile uint32_t ms_value;																// Current millisecond value
